@@ -1,3 +1,7 @@
+.footer{
+    background-color: rgb(41, 67, 76);
+    text-align: center;
+}
 h3{
     text-align: center;
     font-size: 40px;
@@ -6,15 +10,14 @@ h3{
 .contactInfo{
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 15%;
 }
 p{
-    font-size: 20px;
+    font-size: 23px;
     color: white;
 }
-.footer{
-    background-color: rgb(41, 67, 76);
-}
+
+
 
 @media screen and (max-width: 480px) {
     h3{
@@ -24,11 +27,12 @@ p{
     .contactInfo{
         display: grid;
         justify-content: center;
-        gap: 5%;
+        gap: 0%;
     }
     p{
         font-size: 16px;
     }
+    
 }
 @media screen and (min-width: 481px) and (max-width:564px){
     h3{
@@ -42,6 +46,9 @@ p{
     }
     p{
         font-size: 20px;
+    }
+    .footer{
+        margin: 0;
     }
 }
 @media screen and (min-width: 565px) and (max-width:768px){
@@ -57,6 +64,9 @@ p{
     p{
         font-size: 25px;
     } 
+    .footer{
+        height: 100%;
+    }
 }
 @media screen and (min-width: 769px) and (max-width:925px){
     h3{
@@ -71,6 +81,9 @@ p{
     p{
         font-size: 35px;
     } 
+    .footer{
+        height: 100%;
+    }
 }
 @media screen and (min-width: 926px) and (max-width:1024px){
     h3{
@@ -85,6 +98,9 @@ p{
     p{
         font-size: 20px;
     } 
+    .footer{
+        height: 100%;
+    }
 }
 
 
